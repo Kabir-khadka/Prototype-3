@@ -55,12 +55,12 @@ public class PlayerControllerX : MonoBehaviour
             playerRb.AddForce(Vector3.up * floatForce);
         }
 
-        // If the player exceeds max height, clamp their position
+       /* // If the player exceeds max height, clamp their position
         if (transform.position.y > maxHeight)
         {
 
             transform.position = new Vector3(transform.position.x, maxHeight, transform.position.z);
-        }
+        }*/
 
         //Setting the logic to declare the bottom boundry for the player.
         if (transform.position.y < minHeight)
